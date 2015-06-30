@@ -1,0 +1,19 @@
+{
+  "name": "day_26",
+  "version": "0.0.0",
+  "homepage": "https://github.com/andreastclair/tiy_assignments",
+  "authors": [
+    "Andrea St. Clair <andreadoris86@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

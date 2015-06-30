@@ -1,0 +1,95 @@
+@import 'custom';
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+  padding-top: 1.5em;
+}
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  overflow: hidden;
+}
+
+.nav-collapse li {
+  margin-bottom: .5em;
+  float: right;
+  margin-right: 2%;
+}
+
+.nav-collapse a {
+  color: $ltgrey;
+  text-decoration: none;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+  // float: right;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+  // border: 1px solid white;
+  padding: 20px 2%;
+  // display: block;
+  text-decoration: none;
+}
+
+nav{
+  display: none;
+}
+
+.show-nav{
+  display: block;
+}
+
+.ion-navicon, .ion-close {
+  color: $ltgrey;
+  float: right;
+  font-style: normal;
+}
+
+.ion-navicon{
+  font-size: 1.7em;
+}
+
+.ion-close{
+  font-size: 1.1em;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .ion-navicon, .ion-close{
+    display: none;
+  }
+  nav{
+    display: block;
+  }
+}

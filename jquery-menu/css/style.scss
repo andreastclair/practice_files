@@ -1,0 +1,144 @@
+@import 'reset';
+@import 'responsive-nav';
+@import 'custom';
+
+body {
+	// font-family: "lato";
+	// font-family: "franklin-gothic-urw",sans-serif;
+	font-family: "adelle",serif;
+	background: $ltgrey;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+// ===================
+// Typography
+// ===================
+
+h1 {
+	color: $red;
+	font-size: 4.5rem;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 $yellow;
+	padding-left: 5%;
+}
+
+h2 {
+	color: $ltgrey;
+	font-size: 1rem;
+	padding-left: 5%;
+}
+
+h3 {
+	color: $red;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: 10px 0;
+	// margin-top: -5px;
+}
+
+h4 {
+	color: $black;
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: 1.4;
+	margin-bottom: 5px;
+}
+
+h5 {
+	color: $black;
+	font-size: 1rem;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+p {
+	color: $black;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.2rem;
+}
+
+.italic {
+	font-style: italic;
+	font-size: 0.5rem;
+	line-height: 1;
+}
+
+span {
+	font-style: italic;
+	font-size: 0.8rem;
+	line-height: 1;
+	font-weight: normal;
+	font-family: "franklin-gothic-urw",sans-serif;
+
+}
+
+// ===================
+// Header
+// ===================
+
+header {
+	// max-height: 100px;
+	background: $red;
+	padding: 1em 2%;
+	img {
+		width: 30%;
+		display: block;
+		margin: 0 auto;
+	}
+}	
+
+.pizza-toss {
+	width: 100%;
+	height: 200px;
+	background: url("../images/pizza-toss.jpg");
+	background-size: cover;
+	border-bottom: 4px solid $yellow;
+}
+
+.red-border {
+	width: 100%;
+	height: 10px;
+	background-color: $red;
+	margin-top: 1px;
+	margin-bottom: 40px;
+}
+
+// ===================
+// Section
+// ===================
+
+.yellow-border {
+	width: 100%;
+	height: 4px;
+	background-color: $yellow;
+	margin-top: 40px;
+}
+
+.build {
+	text-align: right;
+}
+
+// ===================
+// Footer
+// ===================
+
+footer {
+	div {
+		width: 100%;
+		height: 40px;
+		background-color: $red;
+		margin-top: 40px;
+	}
+}
+
+
+
+
+
+
